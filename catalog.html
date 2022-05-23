@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Каталог</title>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+      <div class="btn__up">&uarr;</div>
+      <header class="header header-catalog">
+         <div class="header__inner">
+            <div class="header__page">
+               <div class="container">
+                  <div class="header__top header__top-catalog">
+                     <img class="logo__img-mobile" src="images/logo-mobile.svg" alt="логотип">
+                     <p class="header__top-address">
+                        г.Новгород, ул.Боровая, 9а
+                     </p>
+                     <div class="header__top-contacts">
+                        <a class="top-contacts__phone" href="tel:99999898778">9 (999) 98-98-778</a>
+                        <a class="top-contacts__phone-mobile" href="tel:99999898778">
+                           <img class="mobile__phone-img" src="images/icons/phone.svg" alt="иконка мобильного телефона">
+                        </a>
+                        <a class="top-contacts__mail" href="mailto:zzhbi@mail.ru">zzhbi@mail.ru</a>
+                        <a class="top-contacts__mail-mobile" href="mailto:zzhbi@mail.ru">
+                           <img class="mobile__mail-img" src="images/icons/mail.svg" alt="иконка эл.почты">
+                        </a>
+                     </div>
+                     <button type="button" class="icon-menu"><span></span></button>
+                  </div>
+                  <div class="header__body">
+                     <div class="header__body-inner">
+                        <a class="header__logo-link" href="#">
+                           <img class="logo__img" src="images/logo.svg " alt="логотип"
+                              data-da=".header__top,1000,first">
+                        </a>
+                        <div class="header__body-search">
+                           <div class="header__body-search-top">
+                              <div class="search-header__box" data-da=".menu__list,400,first">
+                                 <form class="search-header" action="#">
+                                    <input class="search-header__input" type="text" placeholder="Поиск">
+                                    <button class="search-header__button" type="submit">
+                                       <img class="search-button__img" src="images/icons/search.svg" alt="иконка поиск">
+                                    </button>
+                                 </form>
+                              </div>
+                           </div>
+                           <div class="header__body-search-bottom">
+                              <a class="header__body-price" href="#" data-da=".menu__list,600,first">Прайс</a>
+                              <a class="header__basket-btn" href="#" data-da=".menu__list,450,first">Корзина</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="header__bottom">
+                     <nav class="menu">
+                        <ul class="menu__list" data-da=".header__top,700,last">
+                           <li class="menu__item menu__item-catalog">
+                              <a class=" menu__link-catalog" href="#">
+                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M5 5H7V7H5V5ZM5 11H7V13H5V11ZM5 17H7V19H5V17ZM11 5H13V7H11V5ZM11 11H13V13H11V11ZM11 17H13V19H11V17ZM17 5H19V7H17V5ZM17 11H19V13H17V11ZM17 17H19V19H17V17Z"
+                                       stroke="#FF7A00" stroke-width="2" />
+                                 </svg>
+                              </a>
+                              <a class="menu__link menu__link-catalog" href="catalog.html">
+                                 Каталог
+                              </a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link " href="production-page.html">Производство</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="news-page.html">Новости</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="vacancies.html">Вакансии</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="purchases.html">Закупки</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="contacts-page.html">Контакты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <div class="breadcrumbs">
+         <div class="container">
+            <div class="breadcrumbs__inner">
+               <ul class="breadcrumbs__list mobile-overflow ">
+                  <li class="breadcrumbs__list-item">
+                     <a class="breadcrumbs__list-item-link breadcrumbs__list-item-link--great "
+                        href="index.html">Главная</a>
+                  </li>
+                  <li class="breadcrumbs__list-item">
+                     <span class="breadcrumbs__list-item-link--orange">Каталог</span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <main class="main">
+
+         <section class="catalog-pages">
+            <div class="container">
+               <div class="pages-big-title__block">
+                  <h2 class="section-big__title">
+                     Каталог
+                  </h2>
+               </div>
+               <div class="catalog__card-items">
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/1.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Изделия для ОРУ подстанций 35-500 кВ
+                                    <span class="orange-number">
+                                       5
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/2.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Изделия для инженерных коммуникаций
+                                    <span class="orange-number">
+                                       13
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/3.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Изделия для колодцев канализационных сетей
+                                    <span class="orange-number">
+                                       9
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/4.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Утяжелители ЖБИ для трубопроводов
+                                    <span class="orange-number">
+                                       19
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/5.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Изделия для укрепления откосов дорог, русел и кюветов
+                                    <span class="orange-number">
+                                       10
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/6.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Камни бетонные и железобетонные бортовые
+                                    <span class="orange-number">
+                                       3
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/7.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Элементы конструкций водоотводных труб
+                                    <span class="orange-number">
+                                       33
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/8.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Телескопические лотки
+                                    <span class="orange-number">
+                                       8
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/9.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Прикормочные лотки
+                                    <span class="orange-number">
+                                       13
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="catalog__item-card catalog-pages-catalog__item-card">
+                     <div class="catalog-card__item ">
+                        <a class="catalog-card__picture" href="catalog-open.html">
+                           <img class="card__images" src="images/catalog/10.png" alt="изображение ">
+                        </a>
+                        <div class="catalog-card__body">
+                           <a class="catalog-card__sale-wrapper" href="catalog-open.html">
+                              <div class="card__description card__description-catalog-pages">
+                                 <h3 class="card__title card__title-catalog-pages">
+                                    Фундаменты гофрированных труб (ГОСТ 00009-000)
+                                    <span class="orange-number">
+                                       10
+                                    </span>
+                                 </h3>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+
+
+
+
+
+
+
+               </div>
+
+
+            </div>
+         </section>
+
+         <section class="contacs">
+            <div class="container">
+               <div class="contacs__inner">
+                  <div class="section-title__block contacs-title__block">
+                     <h2 class="section-title contacs-title">
+                        Связаться с нами
+                     </h2>
+                  </div>
+                  <form class="contacs__form" action="#">
+                     <input class="contacs__input" type="text" placeholder="Имя">
+                     <input class="contacs__input" type="text" placeholder="E-mail">
+                     <textarea class="contacs__textarea" placeholder="Ваше сообщение"></textarea>
+                     <button class="contacs__btn" type="submit">Отправить</button>
+                     <label class="contacs__label">
+                        <input class="contacs__chekbox" type="checkbox">
+                        <span class="contacs__chekbox-style"></span>
+                        Я согласен
+                     </label>
+                     <a class="contacs__chekbox-agreement" href="#">с политикой конфиденциальности и использования
+                        запрашиваемых данных</a>
+                  </form>
+               </div>
+            </div>
+         </section>
+
+      </main>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+               <div class="footer__top">
+                  <a class="footer__logo-link" href="#">
+                     <img class="footer__logo" src="images/logo.svg" alt="логотип">
+                  </a>
+                  <div class="search-footer__box">
+                     <form class="search-footer" action="#">
+                        <input class="search-footer__input" type="text" placeholder="Поиск">
+                        <button class="search-footer__button" type="submit">
+                           <img class="search-button__img" src="images/icons/search.svg" alt="иконка поиск">
+                        </button>
+                     </form>
+                  </div>
+               </div>
+
+               <div class="footer__body">
+                  <div class="footer__body-content">
+                     <nav class="menu footer__menu ">
+                        <ul class="footer-menu__list ">
+                           <li class=" menu__item-catalog footer-menu__item footer-menu__item-catalog">
+                              <a class=" menu__link-catalog  footer-menu__link-catalog" href="#">
+                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M5 5H7V7H5V5ZM5 11H7V13H5V11ZM5 17H7V19H5V17ZM11 5H13V7H11V5ZM11 11H13V13H11V11ZM11 17H13V19H11V17ZM17 5H19V7H17V5ZM17 11H19V13H17V11ZM17 17H19V19H17V17Z"
+                                       stroke="#FF7A00" stroke-width="2" />
+                                 </svg>
+                              </a>
+                              <a class="menu__link footer-menu__link  footer-menu__link-catalog" href="#">
+                                 Каталог
+                              </a>
+                           </li>
+                           <li class=" footer-menu__item">
+                              <a class="menu__link footer-menu__link " href="#">Производство</a>
+                           </li>
+                           <li class=" footer-menu__item">
+                              <a class="menu__link footer-menu__link " href="#">Новости</a>
+                           </li>
+                           <li class=" footer-menu__item">
+                              <a class="menu__link footer-menu__link " href="#">Закупки</a>
+                           </li>
+                           <li class=" footer-menu__item">
+                              <a class="footer-menu__link header__body-price footer__body-price" href="#">Прайс</a>
+                           </li>
+                        </ul>
+                     </nav>
+
+                     <div class="catalog__body catalog__body-actions ">
+                        <div class="footer-catalog__items-inner">
+                           <div class="catalog__body-inner block" data-spollers="580,max">
+                              <button type="button" data-spoller class="catalog-btn block__title">
+                                 Плиты покрытия
+                              </button>
+                              <div class="footer__catalog">
+                                 <ul class="footer-catalog__item footer-catalog__item-left">
+                                    <li class="footer-catalog__list">
+                                       <a class="footer-catalog__link" href="#">кольца колодезные</a>
+                                       <a class="footer-catalog__link" href="#">лотки теплотрасс</a>
+                                       <a class="footer-catalog__link" href="#">лотки кабельные</a>
+                                       <a class="footer-catalog__link" href="#">Лоток железобетонный ЛК</a>
+                                       <a class="footer-catalog__link" href="#">Лоток УБК</a>
+                                       <a class="footer-catalog__link" href="#">Плиты покрытия лотков теплотрасс</a>
+                                       <a class="footer-catalog__link" href="#">Плиты покрытия коллекторов</a>
+                                       <a class="footer-catalog__link" href="#">Плиты покрытия кабельных лотков</a>
+                                       <a class="footer-catalog__link" href="#">Днища колодезные</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="catalog__body-inner block" data-spollers="580,max">
+                              <button type="button" data-spoller class="catalog-btn block__title">
+                                 Железобетонные стойки
+                              </button>
+                              <div class="footer__catalog">
+                                 <ul class="footer-catalog__item footer-catalog__item-centr">
+                                    <li class="footer-catalog__list">
+                                       <a class="footer-catalog__link" href="#">Аэродромные плиты</a>
+                                       <a class="footer-catalog__link" href="#">Вентиляционные блоки</a>
+                                       <a class="footer-catalog__link" href="#">Доборные балки</a>
+                                       <a class="footer-catalog__link" href="#">Дорожные плиты</a>
+                                       <a class="footer-catalog__link" href="#">Дорожные ограждения жби</a>
+                                       <a class="footer-catalog__link" href="#">Дорожный бордюр</a>
+                                       <a class="footer-catalog__link" href="#">Фундаменты дорожных знаков</a>
+                                       <a class="footer-catalog__link" href="#">Железобетонные стойки</a>
+                                       <a class="footer-catalog__link" href="#">Заборы ЖБИ</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="catalog__body-inner block" data-spollers="580,max">
+                              <button type="button" data-spoller class="catalog-btn block__title">
+                                 Плиты укрепления откосов
+                              </button>
+                              <div class="footer__catalog">
+                                 <ul class="footer-catalog__item footer-catalog__item-right">
+                                    <li class="footer-catalog__list">
+                                       <a class="footer-catalog__link" href="#">Плиты укрепления откосов</a>
+                                       <a class="footer-catalog__link" href="#">Прикромочные лотки</a>
+                                       <a class="footer-catalog__link" href="#">Железобетонные фермы</a>
+                                       <a class="footer-catalog__link" href="#">Приставки железобетонные</a>
+                                       <a class="footer-catalog__link" href="#">Ригель железобетонный</a>
+                                       <a class="footer-catalog__link" href="#">Стойки СКЦ</a>
+                                       <a class="footer-catalog__link" href="#">Стойки УСЩ</a>
+                                       <a class="footer-catalog__link" href="#">Телескопические лотки</a>
+                                       <a class="footer-catalog__link" href="#">Труба железобетонная</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="footer__body-contacts" data-da=".footer__bottom,820,first">
+                     <div class="footer__phone-box">
+                        <a class="footer__phone" href="tel:98888888888">9 (888) 888 8888</a>
+                        <a class="footer__mail" href="mailto:zzhbi@mail.ru">zzhbi@mail.ru</a>
+                     </div>
+                     <div class="footer__phone-box">
+                        <a class="footer__phone" href="tel:99999999999">9 (999) 999 9999</a>
+                        <a class="footer__mail" href="mailto:zzhbi-sale@mail.ru">zzhbi-sale@mail.ru</a>
+                     </div>
+                     <div class="footer__address">
+                        <p class="footer__address-city">г.Новгород, </p>
+                        <p class="footer__address-street">ул.Боровая, 9а</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__bottom">
+                  <div class="footer__bottom-inner">
+                     <p class="copy">2022, ЗЖБИ Производство железобетонных изделий</p>
+                     <div class="politics-box">
+                        <a class="politics__link" href="#">Публичная оферта</a>
+                        <a class="politics__link" href="#">Политика конфиденциальности</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
